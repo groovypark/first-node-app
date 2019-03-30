@@ -1,8 +1,12 @@
 
 # 개발환경 설정
-## DB
+## MYSQL
 ```sh
-docker-compose -f dev-db.yml up -d
+docker-compose -f dev-mysql.yml up -d
+```
+## MONGO
+```sh
+docker-compose -f dev-mongo.yml up -d
 ```
 ## node
 ```sh
