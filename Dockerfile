@@ -2,6 +2,7 @@ FROM node:11-slim
 RUN mkdir -p /app
 WORKDIR /app
 ADD package.json /app
+ADD package-lock.json /app
 RUN npm install
 ADD . /app
 EXPOSE 3000
